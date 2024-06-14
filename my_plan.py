@@ -37,7 +37,7 @@ async def run_drone(drone, plan_name):
 
 async def run():
     drone = await px4_connect_drone()
-    await run_drone(drone,"my_plan.plan")
+    await run_drone(drone,"mainmission.plan")
 
 
 if __name__ == "__main__":
